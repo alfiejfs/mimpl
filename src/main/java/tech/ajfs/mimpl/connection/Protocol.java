@@ -8,7 +8,7 @@ import lombok.experimental.UtilityClass;
 @UtilityClass
 public class Protocol {
 
-  public static final int TRUE = 0x00;
+  public static final int TRUE = 0x01;
   public static final int FALSE = 0x00;
 
   public static String stringFromBytes(byte[] bytes) {
